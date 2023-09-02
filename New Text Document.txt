@@ -1,0 +1,36 @@
+<table class="table axil-product-table axil-wishlist-table">
+<thead>
+    <tr>
+        <th class="product-remove"></th>
+        <th class="product-thumbnail">Product</th>
+        <th class="product-title"></th>
+        <th class="product-price">Unit Price</th>
+        <th class="product-stock-status">Stock Status</th>
+        <th class="product-add-cart"></th>
+    </tr>
+</thead>
+<tbody>
+    <td class="product-remove">
+        <a href="" class="remove-wishlist">
+            <i class="fa-solid fa-xmark"></i>
+        </a>
+    </td>
+    <td class="product-thumbnail">
+        <a href="">
+            <img src="${item.imgUrl}" alt="">
+        </a>
+    </td>
+    <td class="product-title">
+        <a href="">${item.title}</a>
+    </td>
+    <td class="product-price" data-title="price">
+        <span class="">${item.price}</span>
+    </td>
+    <td class="product-stock-status" data-title="Status">
+        In Stock
+    </td>
+    <td class="product-add-cart">
+        <a href="" class="axil-btn btn-outline">Add to Cart</a>
+    </td>
+</tbody>
+</table>
